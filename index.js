@@ -12,12 +12,12 @@ function numberGenerator2() {
 var diceRandom1 = numberGenerator1()
 var diceRandom2 = numberGenerator2()
 
-var dado1 = document.querySelector(".img1").setAttribute("src", `images/dice${diceRandom1}.png`)
+var dado1 = document.querySelector(".img1").setAttribute("src", `images/dice${diceRandom1}.png`);
 
-var dado2 = document.querySelector(".img2").setAttribute("src", `images/dice${diceRandom2}.png`)
+var dado2 = document.querySelector(".img2").setAttribute("src", `images/dice${diceRandom2}.png`);
 
 function winner() {
-    var winner = ["Jogador 1", "Jogador 2", "Empate!"]
+    var winner = ["🤩 Usuário", "🤖 Computador", "⛔️ Empatou!"]
 
     if (diceRandom1 > diceRandom2) {
         return winner[0]
@@ -27,5 +27,6 @@ function winner() {
         return winner[2]        
     }
 }
+
 var vencedor = document.querySelector(".titulo").innerHTML = winner();
 console.log(vencedor)

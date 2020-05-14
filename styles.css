@@ -15,29 +15,23 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 20px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 3rem;
   color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 80%;
+  width: 50%;
 }
 
-footer {
-  margin-top: 10%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-}
 button{
   background-color: #4ECCA3;
   border: none;
@@ -47,7 +41,14 @@ button{
   font-family: 'Lobster', cursive;
   font-weight: bold;
   color:#232931;
-  font-size: 2rem;
-  margin-top: 3rem;
+  font-size: 1rem;
+  margin-top: 2rem;
   padding: 2% 5%;
+}
+
+footer {
+  margin-top: 10%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }

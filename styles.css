@@ -38,3 +38,16 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
+button{
+  background-color: #4ECCA3;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color:#232931;
+  font-size: 2rem;
+  margin-top: 3rem;
+  padding: 2% 5%;
+}
